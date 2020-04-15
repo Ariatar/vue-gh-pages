@@ -1,0 +1,40 @@
+.v-btn__content {
+   color: #595d64;
+   position: relative;
+}
+
+.nav-list {
+   position: relative;
+   margin-left: 10px;
+}
+
+span {
+   padding: 10px;
+}
+
+.v-btn__content:hover {
+   color: white;
+   opacity: 0.8;
+}
+
+.nav-list:after {
+   content: "";
+   background-color: black;
+   width: 1px;
+   height: 200%;
+   position: absolute;
+   left: 10px;
+   z-index: 100;
+   transform: rotate(30deg);
+}
+
+.nav-list:before {
+   content: "";
+   background-color: yellow;
+   width: 1px;
+   height: 200%;
+   position: absolute;
+   left: -10px;
+   z-index: 100;
+   transform: rotate(30deg);
+}
